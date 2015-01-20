@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9DCD7A3F1C2DE287C235ED /* AADatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9DC05B7586AFAEA48F0AF3 /* AADatePicker.m */; };
 		C8AD661E18E2E01B00620DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD661D18E2E01B00620DD9 /* Foundation.framework */; };
 		C8AD662018E2E01B00620DD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD661F18E2E01B00620DD9 /* CoreGraphics.framework */; };
 		C8AD662218E2E01B00620DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD662118E2E01B00620DD9 /* UIKit.framework */; };
@@ -17,10 +18,11 @@
 		C8AD663418E2E01B00620DD9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AD663218E2E01B00620DD9 /* Main_iPad.storyboard */; };
 		C8AD663718E2E01B00620DD9 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD663618E2E01B00620DD9 /* AAViewController.m */; };
 		C8AD663918E2E01B00620DD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AD663818E2E01B00620DD9 /* Images.xcassets */; };
-		C8AD665718E2E06300620DD9 /* AADatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD665618E2E06300620DD9 /* AADatePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C9DC05B7586AFAEA48F0AF3 /* AADatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADatePicker.m; sourceTree = "<group>"; };
+		3C9DC59B7AFAED6E534925B8 /* AADatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADatePicker.h; sourceTree = "<group>"; };
 		7BA9114C1A6E0C520084FE18 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BA9114D1A6E0C520084FE18 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		7BA9114E1A6E0C520084FE18 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPad.strings; sourceTree = "<group>"; };
@@ -40,8 +42,6 @@
 		C8AD663618E2E01B00620DD9 /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		C8AD663818E2E01B00620DD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C8AD663F18E2E01B00620DD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C8AD665518E2E06300620DD9 /* AADatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADatePicker.h; sourceTree = "<group>"; };
-		C8AD665618E2E06300620DD9 /* AADatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADatePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C9DC1B3FD4D1953B9BE13FC /* AADatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3C9DC59B7AFAED6E534925B8 /* AADatePicker.h */,
+				3C9DC05B7586AFAEA48F0AF3 /* AADatePicker.m */,
+			);
+			path = AADatePicker;
+			sourceTree = "<group>";
+		};
 		C8AD661118E2E01B00620DD9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +106,7 @@
 				C8AD663618E2E01B00620DD9 /* AAViewController.m */,
 				C8AD663818E2E01B00620DD9 /* Images.xcassets */,
 				C8AD662418E2E01B00620DD9 /* Supporting Files */,
-				C8AD665518E2E06300620DD9 /* AADatePicker.h */,
-				C8AD665618E2E06300620DD9 /* AADatePicker.m */,
+				3C9DC1B3FD4D1953B9BE13FC /* AADatePicker */,
 			);
 			name = AACustomDatePicker;
 			path = CustomDatePicker;
@@ -186,7 +194,7 @@
 				C8AD662E18E2E01B00620DD9 /* AAAppDelegate.m in Sources */,
 				C8AD663718E2E01B00620DD9 /* AAViewController.m in Sources */,
 				C8AD662A18E2E01B00620DD9 /* main.m in Sources */,
-				C8AD665718E2E06300620DD9 /* AADatePicker.m in Sources */,
+				3C9DCD7A3F1C2DE287C235ED /* AADatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
