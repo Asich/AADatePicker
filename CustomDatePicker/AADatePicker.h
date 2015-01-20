@@ -11,9 +11,7 @@
 @protocol AADatePickerDelegate <NSObject>
 
 @optional
-
 -(void)dateChanged:(id)sender;
-
 @end
 
 @interface AADatePicker : UIControl
@@ -23,4 +21,5 @@
 @property (nonatomic, strong) UIColor *tintColor;
 
 - (id)initWithFrame:(CGRect)frame maxDate:(NSDate *)maxDate minDate:(NSDate *)minDate showValidDatesOnly:(BOOL)showValidDatesOnly;
+
 @end
