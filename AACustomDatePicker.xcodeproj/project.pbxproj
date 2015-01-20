@@ -17,25 +17,13 @@
 		C8AD663418E2E01B00620DD9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AD663218E2E01B00620DD9 /* Main_iPad.storyboard */; };
 		C8AD663718E2E01B00620DD9 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD663618E2E01B00620DD9 /* AAViewController.m */; };
 		C8AD663918E2E01B00620DD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AD663818E2E01B00620DD9 /* Images.xcassets */; };
-		C8AD664018E2E01B00620DD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD663F18E2E01B00620DD9 /* XCTest.framework */; };
-		C8AD664118E2E01B00620DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD661D18E2E01B00620DD9 /* Foundation.framework */; };
-		C8AD664218E2E01B00620DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AD662118E2E01B00620DD9 /* UIKit.framework */; };
-		C8AD664A18E2E01B00620DD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8AD664818E2E01B00620DD9 /* InfoPlist.strings */; };
-		C8AD664C18E2E01B00620DD9 /* CustomDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD664B18E2E01B00620DD9 /* CustomDatePickerTests.m */; };
 		C8AD665718E2E06300620DD9 /* AADatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD665618E2E06300620DD9 /* AADatePicker.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C8AD664318E2E01B00620DD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8AD661218E2E01B00620DD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C8AD661918E2E01B00620DD9;
-			remoteInfo = CustomDatePicker;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		7BA9114C1A6E0C520084FE18 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BA9114D1A6E0C520084FE18 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		7BA9114E1A6E0C520084FE18 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		C8AD661A18E2E01B00620DD9 /* AACustomDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AACustomDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AD661D18E2E01B00620DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8AD661F18E2E01B00620DD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,11 +39,7 @@
 		C8AD663518E2E01B00620DD9 /* AAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
 		C8AD663618E2E01B00620DD9 /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		C8AD663818E2E01B00620DD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C8AD663E18E2E01B00620DD9 /* AACustomDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AACustomDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AD663F18E2E01B00620DD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C8AD664718E2E01B00620DD9 /* AACustomDatePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AACustomDatePickerTests-Info.plist"; sourceTree = "<group>"; };
-		C8AD664918E2E01B00620DD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C8AD664B18E2E01B00620DD9 /* CustomDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerTests.m; sourceTree = "<group>"; };
 		C8AD665518E2E06300620DD9 /* AADatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADatePicker.h; sourceTree = "<group>"; };
 		C8AD665618E2E06300620DD9 /* AADatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADatePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,16 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8AD663B18E2E01B00620DD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8AD664018E2E01B00620DD9 /* XCTest.framework in Frameworks */,
-				C8AD664218E2E01B00620DD9 /* UIKit.framework in Frameworks */,
-				C8AD664118E2E01B00620DD9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				C8AD662318E2E01B00620DD9 /* AACustomDatePicker */,
-				C8AD664518E2E01B00620DD9 /* AACustomDatePickerTests */,
 				C8AD661C18E2E01B00620DD9 /* Frameworks */,
 				C8AD661B18E2E01B00620DD9 /* Products */,
 			);
@@ -98,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				C8AD661A18E2E01B00620DD9 /* AACustomDatePicker.app */,
-				C8AD663E18E2E01B00620DD9 /* AACustomDatePickerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,25 +115,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C8AD664518E2E01B00620DD9 /* AACustomDatePickerTests */ = {
-			isa = PBXGroup;
-			children = (
-				C8AD664B18E2E01B00620DD9 /* CustomDatePickerTests.m */,
-				C8AD664618E2E01B00620DD9 /* Supporting Files */,
-			);
-			name = AACustomDatePickerTests;
-			path = CustomDatePickerTests;
-			sourceTree = "<group>";
-		};
-		C8AD664618E2E01B00620DD9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C8AD664718E2E01B00620DD9 /* AACustomDatePickerTests-Info.plist */,
-				C8AD664818E2E01B00620DD9 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,24 +135,6 @@
 			productReference = C8AD661A18E2E01B00620DD9 /* AACustomDatePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C8AD663D18E2E01B00620DD9 /* AACustomDatePickerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8AD665218E2E01B00620DD9 /* Build configuration list for PBXNativeTarget "AACustomDatePickerTests" */;
-			buildPhases = (
-				C8AD663A18E2E01B00620DD9 /* Sources */,
-				C8AD663B18E2E01B00620DD9 /* Frameworks */,
-				C8AD663C18E2E01B00620DD9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C8AD664418E2E01B00620DD9 /* PBXTargetDependency */,
-			);
-			name = AACustomDatePickerTests;
-			productName = CustomDatePickerTests;
-			productReference = C8AD663E18E2E01B00620DD9 /* AACustomDatePickerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,11 +144,6 @@
 				CLASSPREFIX = AA;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "I'm IT";
-				TargetAttributes = {
-					C8AD663D18E2E01B00620DD9 = {
-						TestTargetID = C8AD661918E2E01B00620DD9;
-					};
-				};
 			};
 			buildConfigurationList = C8AD661518E2E01B00620DD9 /* Build configuration list for PBXProject "AACustomDatePicker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -222,6 +152,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = C8AD661118E2E01B00620DD9;
 			productRefGroup = C8AD661B18E2E01B00620DD9 /* Products */;
@@ -229,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				C8AD661918E2E01B00620DD9 /* AACustomDatePicker */,
-				C8AD663D18E2E01B00620DD9 /* AACustomDatePickerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,14 +173,6 @@
 				C8AD663918E2E01B00620DD9 /* Images.xcassets in Resources */,
 				C8AD663118E2E01B00620DD9 /* Main_iPhone.storyboard in Resources */,
 				C8AD662818E2E01B00620DD9 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8AD663C18E2E01B00620DD9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8AD664A18E2E01B00620DD9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,29 +190,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8AD663A18E2E01B00620DD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8AD664C18E2E01B00620DD9 /* CustomDatePickerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C8AD664418E2E01B00620DD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C8AD661918E2E01B00620DD9 /* AACustomDatePicker */;
-			targetProxy = C8AD664318E2E01B00620DD9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C8AD662618E2E01B00620DD9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C8AD662718E2E01B00620DD9 /* en */,
+				7BA9114C1A6E0C520084FE18 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -299,6 +206,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C8AD663018E2E01B00620DD9 /* Base */,
+				7BA9114D1A6E0C520084FE18 /* ru */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -307,16 +215,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				C8AD663318E2E01B00620DD9 /* Base */,
+				7BA9114E1A6E0C520084FE18 /* ru */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		C8AD664818E2E01B00620DD9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C8AD664918E2E01B00620DD9 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,46 +321,6 @@
 			};
 			name = Release;
 		};
-		C8AD665318E2E01B00620DD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AACustomDatePicker.app/AACustomDatePicker";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustomDatePicker/CustomDatePicker-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CustomDatePickerTests/AACustomDatePickerTests-Info.plist";
-				PRODUCT_NAME = AACustomDatePickerTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		C8AD665418E2E01B00620DD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AACustomDatePicker.app/AACustomDatePicker";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustomDatePicker/CustomDatePicker-Prefix.pch";
-				INFOPLIST_FILE = "CustomDatePickerTests/AACustomDatePickerTests-Info.plist";
-				PRODUCT_NAME = AACustomDatePickerTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -477,15 +338,6 @@
 			buildConfigurations = (
 				C8AD665018E2E01B00620DD9 /* Debug */,
 				C8AD665118E2E01B00620DD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8AD665218E2E01B00620DD9 /* Build configuration list for PBXNativeTarget "AACustomDatePickerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8AD665318E2E01B00620DD9 /* Debug */,
-				C8AD665418E2E01B00620DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

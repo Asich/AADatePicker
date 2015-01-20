@@ -201,7 +201,7 @@
 {
     UILabel *lblDate = [[UILabel alloc] init];
     [lblDate setFont:[UIFont systemFontOfSize:25.0]];
-    [lblDate setTextColor:[UIColor blueColor]];
+    [lblDate setTextColor:self.tintColor];
     [lblDate setBackgroundColor:[UIColor clearColor]];
     
     if (component == 0) // Date

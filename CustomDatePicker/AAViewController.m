@@ -20,8 +20,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    AADatePicker *datePicker = [[AADatePicker alloc] initWithFrame:CGRectMake(0, 20, 320, 264) maxDate:[NSDate dateWithTimeIntervalSinceNow:7*24*60*60] minDate:[NSDate date] showValidDatesOnly:NO];
-
+    AADatePicker *datePicker = [[AADatePicker alloc] initWithFrame:CGRectMake(0, 20, 320, 264)
+                                                           maxDate:[NSDate date]
+                                                           minDate:[NSDate dateWithTimeIntervalSince1970:0] showValidDatesOnly:NO];
+    datePicker.backgroundColor = [UIColor whiteColor];
+    datePicker.tintColor = [UIColor blackColor];
     datePicker.delegate = self;
     [self.view addSubview:datePicker];
     

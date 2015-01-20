@@ -20,6 +20,7 @@
 
 @property (nonatomic, strong) id<AADatePickerDelegate> delegate;
 @property (nonatomic, strong) NSDate *date;
+@property (nonatomic, strong) UIColor *tintColor;
 
 - (id)initWithFrame:(CGRect)frame maxDate:(NSDate *)maxDate minDate:(NSDate *)minDate showValidDatesOnly:(BOOL)showValidDatesOnly;
 @end
